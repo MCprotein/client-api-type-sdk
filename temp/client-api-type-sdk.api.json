@@ -161,20 +161,20 @@
     }
   },
   "kind": "Package",
-  "canonicalReference": "api-extractor!",
+  "canonicalReference": "@mcprotein/client-api-type-sdk!",
   "docComment": "",
-  "name": "api-extractor",
+  "name": "@mcprotein/client-api-type-sdk",
   "preserveMemberOrder": false,
   "members": [
     {
       "kind": "EntryPoint",
-      "canonicalReference": "api-extractor!",
+      "canonicalReference": "@mcprotein/client-api-type-sdk!",
       "name": "",
       "preserveMemberOrder": false,
       "members": [
         {
           "kind": "Class",
-          "canonicalReference": "api-extractor!A:class",
+          "canonicalReference": "@mcprotein/client-api-type-sdk!A:class",
           "docComment": "/**\n * A 클래스입니다.\n *\n * @public\n */\n",
           "excerptTokens": [
             {
@@ -190,7 +190,7 @@
           "members": [
             {
               "kind": "Method",
-              "canonicalReference": "api-extractor!A#test:member(1)",
+              "canonicalReference": "@mcprotein/client-api-type-sdk!A#test:member(1)",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -224,7 +224,7 @@
         },
         {
           "kind": "Interface",
-          "canonicalReference": "api-extractor!AInterface:interface",
+          "canonicalReference": "@mcprotein/client-api-type-sdk!AInterface:interface",
           "docComment": "/**\n * A 인터페이스입니다.\n *\n * @public\n */\n",
           "excerptTokens": [
             {
@@ -239,7 +239,7 @@
           "members": [
             {
               "kind": "PropertySignature",
-              "canonicalReference": "api-extractor!AInterface#name:member",
+              "canonicalReference": "@mcprotein/client-api-type-sdk!AInterface#name:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -269,7 +269,7 @@
         },
         {
           "kind": "TypeAlias",
-          "canonicalReference": "api-extractor!AType:type",
+          "canonicalReference": "@mcprotein/client-api-type-sdk!AType:type",
           "docComment": "/**\n * A 타입입니다.\n *\n * @public\n */\n",
           "excerptTokens": [
             {
