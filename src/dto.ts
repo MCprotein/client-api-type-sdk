@@ -23,3 +23,11 @@ export type AType = {
 export interface AInterface {
   name: string
 }
+
+/**
+ * @public
+ * 테스트
+ */
+export interface TestInterface {
+  name: string
+}
