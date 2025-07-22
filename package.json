@@ -1,0 +1,17 @@
+{
+  "name": "api-extractor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "type:build": "tsc -b",
+    "type:bundle": "api-extractor run -c ./api-extractor.json",
+    "type:publish": "npm publish --workspaces api-extractor"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@microsoft/api-extractor": "^7.52.8"
+  }
+}
