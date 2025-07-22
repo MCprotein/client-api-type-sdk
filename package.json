@@ -1,11 +1,11 @@
 {
-  "name": "api-extractor",
-  "version": "1.0.0",
+  "name": "@mcprotein/client-api-type-sdk",
+  "version": "1.0.1",
   "main": "index.js",
   "scripts": {
     "type:build": "tsc -b",
     "type:bundle": "api-extractor run -c ./api-extractor.json",
-    "type:publish": "npm publish --workspaces api-extractor"
+    "type:publish": "npm publish --access public"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +13,9 @@
   "description": "",
   "dependencies": {
     "@microsoft/api-extractor": "^7.52.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MCprotein/client-api-type-sdk"
   }
 }
